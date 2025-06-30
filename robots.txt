@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cristaldo-motors.vercel.app/sitemap.xml
+
+# Arquivos e diretórios permitidos
+Allow: /src/css/
+Allow: /src/js/
+Allow: /src/img/
+
+# Bloquear arquivos de desenvolvimento (se existirem)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /.gitignore
+Disallow: /README.md
+
+# Crawl-delay (opcional - tempo em segundos entre requisições)
+Crawl-delay: 1
+
+# Informações adicionais para mecanismos de busca específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
