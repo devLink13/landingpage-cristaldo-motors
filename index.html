@@ -32,7 +32,7 @@
   <meta property="og:site_name" content="Cristaldo Motors">
 
   <!--SCHEMA DE OTIMIZAÇÃO PARA MOTORES DE BUSCA-->
-   <!-- Schema.org JSON-LD -->
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -129,24 +129,26 @@
   <!--HEADER - NÃO USAREMOS HEADER PARA MANTER O FUNCIONAMENTO DE STICKYTOP DA NAVBAR DO BS5-->
   <div class="container-fluid text-bg-secondary d-flex m-0 p-1 shadow-sm">
     <a href="https://wa.me/5567996631209?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20da%20Cristaldo%20Motors."
-      target="_blank" class="mx-auto text-decoration-none">
-      <i class="bi bi-whatsapp text-bg-secondary">
+      target="_blank" class="mx-auto text-decoration-none"
+      aria-label="Entrar em contato via WhatsApp com a Cristaldo Motors">
+      <i class="bi bi-whatsapp text-bg-secondary" aria-hidden="true">
         <span class="ms-2 fw-semibold">(67) 99663-1209 ENTRE EM CONTATO</span>
       </i>
     </a>
   </div>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top m-0 p-0 shadow-lg rounded-bottom-4">
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top m-0 p-0 shadow-lg rounded-bottom-4">
     <div class="container-fluid mx-3">
-      <a href="#" class="navbar-brand d-flex align-items-center mx-auto mx-md-0">
+      <a href="#" class="navbar-brand d-flex align-items-center mx-auto mx-lg-0 order-lg-1">
         <img src="./src/img/logo-cristaldo-motors-final-invertido.png" width="60" height="60"
           alt="Cristaldo Motors Logo" />
         <span class="fst-italic fs-4 ms-2">Cristaldo Motors</span>
       </a>
-      <button class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <button class="navbar-toggler order-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Alternar menu de navegação">
         <span class="navbar-toggler-icon p-0 m-0"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarMenu">
+      <div class="collapse navbar-collapse order-lg-2" id="navbarMenu">
         <div class="navbar-nav ms-auto">
           <a href="#" class="nav-link active text-uppercase fw-medium">
             <i class="bi bi-house-fill"></i>
@@ -182,7 +184,8 @@
       <h1 class="fw-semibold mt-2">Bem-vindo à Cristaldo Motors</h1>
       <hr class="bg-white w-50 mx-auto d-block d-md-none">
       <hr class="bg-white w-25 mx-auto d-none d-sm-block">
-      <img src="./src/img/logo-cristaldo-motors-final-invertido.png" width="200" height="200" alt="">
+      <img src="./src/img/logo-cristaldo-motors-final-invertido.png" width="200" height="200"
+        alt="Logo da Cristaldo Motors - Oficina especializada em motocicletas">
       <blockquote class="px-4 text-white-50 fw-semibold my-2 fst-italic">
         Mais que uma oficina de motocicletas, somos uma equipe apaixonada por motos e dedicada a oferecer o melhor
         serviço para você e sua moto.
@@ -191,9 +194,10 @@
       <small class="">Venha nos visitar e conhecer a nossa oficina!</small>
       <br>
       <a href="https://www.google.com/maps/place/Cristaldo+motors/@-20.5458483,-54.617781,17z/data=!3m1!4b1!4m6!3m5!1s0x9486e5000b512f81:0x9a5c155c1e41232f!8m2!3d-20.5458533!4d-54.6152061!16s%2Fg%2F11w1lz1w1h?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"
-        class="text-decoration-none text-bg-secondary m-3" target="_blank">
+        class="text-decoration-none text-bg-secondary m-3" target="_blank"
+        aria-label="Ver localização da Cristaldo Motors no Google Maps">
         <div class="d-flex align-items-md-center px-4 px-md-0 justify-content-md-center ">
-          <i class="bi bi-geo-alt-fill fs-4 me-2"></i>
+          <i class="bi bi-geo-alt-fill fs-4 me-2" aria-hidden="true"></i>
           <span class="text-white fw-semibold">R. Aydê Roque, 395 - Jardim Campo Nobre, Campo Grande - MS</span>
         </div>
       </a>
@@ -221,7 +225,8 @@
         </div>
         <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
           <figure class="figure text-center">
-            <img src="./src/img/equipe.jpg" width="200" height="200" alt="Cristaldo Motors Logo"
+            <img src="./src/img/equipe.jpg" width="200" height="200"
+              alt="Luan Cristaldo - Proprietário e Mecânico chefe da Cristaldo Motors"
               class="img-fluid rounded-circle shadow-lg img-perfil-circular mt-3">
             <figcaption class="mt-3 text-muted text-center">
               <small class="px-4 px-md-0 text-center d-block">Luan Cristaldo - Proprietário e Mecânico chefe da
@@ -258,23 +263,28 @@
             <div class="carousel-inner" style="width: 100%; aspect-ratio: 3/4; max-width: 480px; max-height: 640px;">
               <div class="carousel-item active">
                 <img src="./src/img/img-carousel-1.jpg"
-                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640" alt="Imagem 1">
+                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640"
+                  alt="Imagem da oficina Cristaldo Motors - Motocicleta em manutenção">
               </div>
               <div class="carousel-item">
                 <img src="./src/img/img-carousel-2.jpg"
-                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640" alt="Imagem 2">
+                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640"
+                  alt="Ambiente interno da oficina Cristaldo Motors">
               </div>
               <div class="carousel-item">
                 <img src="./src/img/img-carousel-3.jpg"
-                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640" alt="Imagem 3">
+                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640"
+                  alt="Serviços de manutenção e revisão de motocicletas">
               </div>
               <div class="carousel-item">
                 <img src="./src/img/img-carousel-4.jpg"
-                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640" alt="Imagem 4">
+                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640"
+                  alt="Equipe especializada em manutenção de motos">
               </div>
               <div class="carousel-item">
                 <img src="./src/img/img-carousel-5.jpg"
-                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640" alt="Imagem 5">
+                  class="d-block w-100 h-100 object-fit-cover carousel-img-480x640"
+                  alt="Ferramentas e equipamentos profissionais da oficina">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
@@ -296,7 +306,10 @@
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.353601869956!2d-54.617781!3d-20.5458483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e5000b512f81%3A0x9a5c155c1e41232f!2sCristaldo%20motors!5e0!3m2!1spt-BR!2sbr!4v1719080000000!5m2!1spt-BR!2sbr"
             width="100%" height="400" style="border:0; border-radius: 16px; max-width: 480px;" allowfullscreen=""
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Cristaldo Motors no Google Maps - R. Aydê Roque, 395, Campo Grande-MS"
+            aria-label="Mapa mostrando a localização da oficina Cristaldo Motors">
+          </iframe>
         </div>
       </div>
     </div>
@@ -305,15 +318,23 @@
     <div class="d-none d-md-block m-5 p-5"></div>
 
     <!--SEÇÃO DE SERVIÇOS-->
-    <div class="container mt-6 mb-6" id="servicos">
+    <div class="container mt-6 mb-5" id="servicos">
       <h2 class="text-center text-uppercase fw-semibold">serviços oferecidos</h2>
       <hr class="bg-secondary w-50 mx-auto">
-      <div class="row row-cols-1 row-cols-md-3 g-5 m-1">
+      <div class="row row-cols-1 row-cols-lg-3 g-5 m-1">
         <div class="col">
           <div class="card h-100 border">
             <div class="card-header bg-dark text-white d-flex align-items-center justify-content-center">
-              <h4 class="text-center text-uppercase text-bg-dark p-3">Revisão SIMPLES</h4>
-              <i class="bi bi-tools"></i>
+              <div class="text-center">
+                <h4 class="text-center text-uppercase text-bg-dark p-3 mb-1">Revisão SIMPLES</h4>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
             </div>
             <div class="card-body text-bg-secondary">
               <ul class="card-text mb-0">
@@ -331,8 +352,9 @@
               </ul>
             </div>
             <div class="card-footer btn bg-info p-4">
-              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">
-                <i class="bi bi-check-circle-fill fs-2 text-white pe-2"></i>
+              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"
+                aria-label="Solicitar orçamento para Revisão Simples" role="button">
+                <i class="bi bi-check-circle-fill fs-2 text-white pe-2" aria-hidden="true"></i>
                 <span class="fw-semibold text-white text-uppercase">Agendar Revisão Simples</span>
               </a>
             </div>
@@ -341,7 +363,18 @@
 
         <div class="col">
           <div class="card h-100 border">
-            <h4 class="card-header text-center text-uppercase text-bg-dark p-3">revisão completa</h4>
+            <div class="card-header bg-dark text-white d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h4 class="text-center text-uppercase text-bg-dark p-3 mb-1">Revisão COMPLETA</h4>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
             <div class="card-body text-bg-secondary">
               <ul class="card-text mb-0">
                 <li>Limpeza do sistema e pistões do freio dianteiro</li>
@@ -372,8 +405,9 @@
               </ul>
             </div>
             <div class="card-footer btn bg-info p-4">
-              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">
-                <i class="bi bi-check-circle-fill fs-2 text-white pe-2"></i>
+              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"
+                aria-label="Solicitar orçamento para Revisão Completa" role="button">
+                <i class="bi bi-check-circle-fill fs-2 text-white pe-2" aria-hidden="true"></i>
                 <span class="fw-semibold text-white text-uppercase">Agendar Revisão Completa</span>
               </a>
             </div>
@@ -382,7 +416,18 @@
 
         <div class="col">
           <div class="card h-100 border">
-            <h4 class="card-header text-center text-uppercase text-bg-dark p-3">REVISÃO PREMIUM</h4>
+            <div class="card-header bg-dark text-white d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h4 class="text-center text-uppercase text-bg-dark p-3 mb-1">REVISÃO PREMIUM</h4>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
             <div class="card-body text-bg-secondary">
               <ul class="card-text mb-0">
                 <li>Limpeza do sistema e pistões do freio dianteiro</li>
@@ -417,8 +462,9 @@
               </ul>
             </div>
             <div class="card-footer btn bg-info p-4">
-              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">
-                <i class="bi bi-check-circle-fill fs-2 text-white pe-2"></i>
+              <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"
+                aria-label="Solicitar orçamento para Revisão Premium" role="button">
+                <i class="bi bi-check-circle-fill fs-2 text-white pe-2" aria-hidden="true"></i>
                 <span class="fw-semibold text-white text-uppercase">Agendar Revisão Premium</span>
               </a>
             </div>
@@ -427,16 +473,169 @@
 
 
 
+    </div>
+
+    <!--Espaço de separação em telas maiores-->
+    <div class="p-4"></div>
+
+    <!--SEÇÃO DE CONTATOS-->
+    <div class="container mt-5 mb-5" id="contatos">
+      <h2 class="text-center text-uppercase fw-semibold">Entre em Contato</h2>
+      <hr class="bg-secondary w-50 mx-auto">
+      
+      <div class="row g-4 mt-3">
+        <!-- Informações de Contato -->
+        <div class="col-12 col-lg-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header bg-dark text-white text-center">
+              <h4 class="mb-0 text-uppercase">
+                <i class="bi bi-telephone-fill me-2"></i>
+                Informações de Contato
+              </h4>
+            </div>
+            <div class="card-body bg-light">
+              <div class="row g-3">
+                <!-- WhatsApp -->
+                <div class="col-12">
+                  <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                    <div class="flex-shrink-0">
+                      <i class="bi bi-whatsapp fs-2 text-success"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-1 fw-semibold text-dark">WhatsApp</h6>
+                      <p class="mb-1 text-muted">(67) 99663-1209</p>
+                      <a href="https://wa.me/5567996631209?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20da%20Cristaldo%20Motors." 
+                         target="_blank" class="btn btn-success btn-sm">
+                        <i class="bi bi-chat-dots me-1"></i>Conversar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Endereço -->
+                <div class="col-12">
+                  <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                    <div class="flex-shrink-0">
+                      <i class="bi bi-geo-alt-fill fs-2 text-primary"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-1 fw-semibold text-dark">Endereço</h6>
+                      <p class="mb-1 text-muted">R. Aydê Roque, 395</p>
+                      <p class="mb-1 text-muted">Jardim Campo Nobre, Campo Grande - MS</p>
+                      <a href="https://www.google.com/maps/place/Cristaldo+motors/@-20.5458483,-54.617781,17z/data=!3m1!4b1!4m6!3m5!1s0x9486e5000b512f81:0x9a5c155c1e41232f!8m2!3d-20.5458533!4d-54.6152061!16s%2Fg%2F11w1lz1w1h?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D" 
+                         target="_blank" class="btn btn-primary btn-sm">
+                        <i class="bi bi-map me-1"></i>Ver no Mapa
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Horário de Funcionamento -->
+                <div class="col-12">
+                  <div class="d-flex align-items-start p-3 bg-white rounded shadow-sm">
+                    <div class="flex-shrink-0">
+                      <i class="bi bi-clock-fill fs-2 text-warning"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-2 fw-semibold text-dark">Horário de Funcionamento</h6>
+                      <ul class="list-unstyled mb-0 text-muted">
+                        <li><strong>Segunda a Sexta:</strong> 08:00 às 18:00</li>
+                        <li><strong>Sábado:</strong> 08:00 às 12:00</li>
+                        <li><strong>Domingo:</strong> Fechado</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="col-12 col-lg-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header bg-dark text-white text-center">
+              <h4 class="mb-0 text-uppercase">
+                <i class="bi bi-envelope-fill me-2"></i>
+                Envie uma Mensagem
+              </h4>
+            </div>
+            <div class="card-body bg-light">
+              <form id="formContato">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <label for="nome" class="form-label fw-semibold">Nome *</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label for="telefone" class="form-label fw-semibold">Telefone *</label>
+                    <input type="tel" class="form-control" id="telefone" name="telefone" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label fw-semibold">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                  </div>
+                  <div class="col-12">
+                    <label for="servico" class="form-label fw-semibold">Serviço de Interesse</label>
+                    <select class="form-select" id="servico" name="servico">
+                      <option value="">Selecione um serviço</option>
+                      <option value="Revisão Simples">Revisão Simples</option>
+                      <option value="Revisão Completa">Revisão Completa</option>
+                      <option value="Revisão Premium">Revisão Premium</option>
+                      <option value="Reparo/Manutenção">Reparo/Manutenção</option>
+                      <option value="Customização">Customização</option>
+                      <option value="Outros">Outros</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="mensagem" class="form-label fw-semibold">Mensagem *</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Descreva detalhes sobre sua moto e o serviço desejado..." required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-dark btn-lg" id="btnEnviar">
+                        <i class="bi bi-send-fill me-2"></i>
+                        Enviar Mensagem
+                      </button>
+                    </div>
+                    <small class="text-muted mt-2 d-block text-center">
+                      * Campos obrigatórios
+                    </small>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <!-- Chamada para Ação -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card border-0 bg-dark text-white">
+            <div class="card-body text-center py-4">
+              <h3 class="mb-3">
+                <i class="bi bi-tools me-2"></i>
+                Precisa de um Orçamento Rápido?
+              </h3>
+              <p class="mb-4 lead">Entre em contato pelo WhatsApp e receba atendimento personalizado!</p>
+              <a href="https://wa.me/5567996631209?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20minha%20moto." 
+                 target="_blank" class="btn btn-success btn-lg">
+                <i class="bi bi-whatsapp me-2"></i>
+                Solicitar Orçamento via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-      <!--Espaço de separação em telas maiores-->
-      <div class="d-none d-md-block m-5 p-5"></div>
-
+    <!--Espaço de separação em telas maiores-->
+    <div class="d-none d-md-block m-5 p-5"></div>
 
   </main>
 
+  <!-- Rodapé -->
   <footer>
     <div class="container-fluid bg-dark text-white py-4 mt-5 border-top border-secondary">
       <div class="row align-items-center">
@@ -452,22 +651,25 @@
 
           <br class="d-none d-md-block">
 
-          <div class="btn-group my-2" role="group" aria-label="Redes sociais">
-            <a href="https://github.com/devLink13" target="_blank" class="btn btn-outline-light btn-sm">
-              <i class="bi bi-github"></i>
+          <div class="btn-group my-2" role="group" aria-label="Redes sociais da DevLink Studio">
+            <a href="https://github.com/devLink13" target="_blank" class="btn btn-outline-light btn-sm"
+              aria-label="Perfil do GitHub da DevLink Studio">
+              <i class="bi bi-github" aria-hidden="true"></i>
             </a>
 
-            <a href="" class="btn btn-outline-light btn-sm">
-              <i class="bi bi-instagram"></i>
+            <a href="" class="btn btn-outline-light btn-sm" aria-label="Perfil do Instagram da DevLink Studio">
+              <i class="bi bi-instagram" aria-hidden="true"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/wesleylink/" target="_blank" class="btn btn-outline-light btn-sm">
-              <i class="bi bi-linkedin"></i>
+            <a href="https://www.linkedin.com/in/wesleylink/" target="_blank" class="btn btn-outline-light btn-sm"
+              aria-label="Perfil do LinkedIn da DevLink Studio">
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
             </a>
 
             <a href="https://wa.me/53991725057?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Quero%20saber%20mais%20sobre%20a%20DevLink%20Studio."
-              target="_blank" class="btn btn-outline-light btn-sm">
-              <i class="bi bi-whatsapp"></i>
+              target="_blank" class="btn btn-outline-light btn-sm"
+              aria-label="Entrar em contato via WhatsApp com a DevLink Studio">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
             </a>
 
 
@@ -475,13 +677,15 @@
 
           <br class="d-block">
 
-          <a href="mailto:contato@devlinkstudio.com.br" class="text-white text-decoration-none ms-md-2">
-            <i class="bi bi-envelope-fill"></i> contato@devlinkstudio.com.br
+          <a href="mailto:contato@devlinkstudio.com.br" class="text-white text-decoration-none ms-md-2"
+            aria-label="Enviar email para contato@devlinkstudio.com.br">
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i> contato@devlinkstudio.com.br
           </a>
           <span class="mx-2 d-none d-md-inline">|</span>
           <br class="d-block d-md-none">
-          <a href="https://www.devlinkstudio.com.br" target="_blank" class="text-white text-decoration-none">
-            <i class="bi bi-globe"></i> devlinkstudio.com.br
+          <a href="https://www.devlinkstudio.com.br" target="_blank" class="text-white text-decoration-none"
+            aria-label="Visitar site da DevLink Studio">
+            <i class="bi bi-globe" aria-hidden="true"></i> devlinkstudio.com.br
           </a>
         </div>
       </div>
@@ -492,10 +696,18 @@
       </div>
     </div>
   </footer>
+
+  <!-- Scripts JS DO BS5-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+
+  <!--SCRIPT PRINCIPAL DA PÁGINA-->
   <script src="./src/js/main.js"></script>
+
+  <!--SCRIPT PARA O FORMULÁRIO-->
+  <script src="./src/js/form.js"></script>
 </body>
 
 </html>
